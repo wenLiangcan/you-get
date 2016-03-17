@@ -914,7 +914,7 @@ def print_info(site_info, title, type, size):
     elif type in ['webm']:
         type = 'video/webm'
 
-    elif type in ['jpg']:
+    elif type in ['jpg', 'jpeg']:
         type = 'image/jpeg'
     elif type in ['png']:
         type = 'image/png'
